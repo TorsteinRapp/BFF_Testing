@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossDomainApi", "Api\CrossDomainApi.csproj", "{C0CD8DB8-1284-4959-9A29-99707ED26C88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Host", "Host\Host.csproj", "{4CF50F3B-22D1-44F7-B2D7-D08408A070CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9733BEBC-5EB2-4D6A-BB3D-D27D37ADF2E2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0CD8DB8-1284-4959-9A29-99707ED26C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CD8DB8-1284-4959-9A29-99707ED26C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CD8DB8-1284-4959-9A29-99707ED26C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CD8DB8-1284-4959-9A29-99707ED26C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF50F3B-22D1-44F7-B2D7-D08408A070CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF50F3B-22D1-44F7-B2D7-D08408A070CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF50F3B-22D1-44F7-B2D7-D08408A070CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF50F3B-22D1-44F7-B2D7-D08408A070CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {109C72A8-4835-4315-9B23-3B50CF151957}
+	EndGlobalSection
+EndGlobal
