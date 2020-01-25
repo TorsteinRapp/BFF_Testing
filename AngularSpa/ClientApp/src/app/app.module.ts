@@ -28,6 +28,7 @@ import { BffComponent } from './bff/bff.component';
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'bff', component: BffComponent },
+      { path: 'signin-oidc', redirectTo: '/bff', pathMatch: 'full' },
       { path: '', redirectTo: '/bff', pathMatch: 'full' },
     ])
   ],
