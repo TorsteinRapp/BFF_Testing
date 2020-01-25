@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IdentityModel.AspNetCore
+namespace Host.Internal
 {
     public class StrictSameSiteExternalAuthenticationMiddleware
     {
