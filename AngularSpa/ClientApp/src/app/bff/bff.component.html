@@ -1,1 +1,11 @@
-<p>bff works!</p>
+<section>
+  <button (click)="getFrontend()" class="btn btn-info">Get frontend</button>
+  <button (click)="getBackend()" class="btn btn-info">Get Backend</button>
+  <a href="user/logout" class="btn btn-warning">Logout </a>
+</section>
+
+<main *ngIf="data">
+  <pre>
+    {{ data | json}}
+  </pre>
+</main>

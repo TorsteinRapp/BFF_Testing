@@ -14,3 +14,16 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+button{
+  margin-right: 10px;
+}
+
+pre {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #402f4f;
+  border-radius: 5px;
+  font-size: 10px;
+  color: whitesmoke;
+}
