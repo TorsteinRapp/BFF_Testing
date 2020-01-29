@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Host.Internal
+namespace AngularSpa
 {
     public class StrictSameSiteExternalAuthenticationMiddleware
     {
