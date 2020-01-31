@@ -32,7 +32,7 @@ namespace AngularSpa
                 })
                 .AddCookie("cookies", options =>
                 {
-                    options.Cookie.Name = "bff";
+                    options.Cookie.Name = "bff_angular";
                     options.Cookie.SameSite = SameSiteMode.Strict;
                 })
                 .AddOpenIdConnect("oidc", options =>

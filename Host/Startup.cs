@@ -24,7 +24,7 @@ namespace Host
             })
             .AddCookie("cookies", options =>
             {
-                options.Cookie.Name = "bff";
+                options.Cookie.Name = "bff_mini";
                 options.Cookie.SameSite = SameSiteMode.Strict;
             })
             .AddOpenIdConnect("oidc", options =>
