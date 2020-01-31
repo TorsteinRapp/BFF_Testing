@@ -2,16 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Mini SPA</title>
 </head>
 <body>
     <div>
-        <!--<button id="cookie">Show cookie content</button>-->
         <button id="front">Call front-end API</button>
         <button id="back">Call back-end API</button>
-        <button id="logout">Logout</button>
+        <a href="user/logout">Logout</a>
     </div>
-    
     <div>
         <pre id="out"></pre>
     </div>
@@ -19,7 +17,6 @@
     <script>
         document.getElementById("front").addEventListener("click", callFrontEndApi);
         document.getElementById("back").addEventListener("click", callBackEndApi);
-        document.getElementById("logout").addEventListener("click", logout);
 
         function callFrontEndApi() {
             var xhr = new XMLHttpRequest();
@@ -49,10 +46,6 @@
             }
 
             xhr.send();
-        }
-
-        function logout() {
-            window.location = "user/logout";
         }
 
         function log() {
